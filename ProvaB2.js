@@ -43,7 +43,5 @@ function escolherCorAleatoriaDas10(coresAleatorias) {
   console.log("Cor Aleatória Escolhida:", corAleatoria);
 }
 
-// Processos
-const cores = pegarCoresDaPagina();  // Pega todas as cores da página
 const coresAleatorias = escolherCoresAleatorias(cores);  // Escolhe 10 cores aleatórias
 escolherCorAleatoriaDas10(coresAleatorias);  // Escolhe uma cor aleatória entre as 10
